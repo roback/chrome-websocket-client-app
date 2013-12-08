@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>WebSocket client</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jquery.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <label id="url-label">Server URL:
+	<input id="url-input" class="form-control" value="ws://"/>
+	<div id="url-error-box-container">
+	  <div id="url-error-box"></div>
+	</div>
+      </label>
+      <button id="connect-all-button" class="btn btn-primary" >Connect all clients</button>
+      <button id="disconnect-all-button" class="btn btn-warning" >Disonnect all clients</button>
+      <button id="clear-all-logs-button" class="btn btn-info" >Clear all logs</button>
+      <button id="add-client-button" class="btn btn-success" >Add client</button>
+      <button id="remove-client-button" class="btn btn-danger" >Remove client</button>
+    </header>
+    
+    <div id="container">
+      <div class="row">
+
+      </div>
+    </div>
+  </body>
+</html>

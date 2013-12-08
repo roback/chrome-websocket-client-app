@@ -1,0 +1,76 @@
+html {
+    overflow-y: auto;
+}
+
+header {
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px;
+    color: white;
+}
+
+#url-label {
+    width: 40%;
+}
+
+#url-input {
+    width: 100%;
+    display: inline;
+}
+
+#url-error-box-container {
+    position: relative;
+    width: 0;
+    height: 0;
+}
+
+#url-error-box {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    background-color: rgba(255,0,0,0.8);
+    z-index: 100;
+    white-space: nowrap;
+    border-radius: 10px;
+}
+
+.client-inner-container {
+    background-color: #eeeeee;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 20px -5px black;
+}
+
+.client-status-bar {
+    float: right;
+}
+
+.client-request-input {
+    min-width: 100%;
+    max-width: 100%;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.response-log {
+    -webkit-user-select: text;
+    margin-top: 0;
+    min-height: 100px;
+    background-color: white;
+    box-shadow: 0 0 10px -3px black inset;
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+.server-color {
+    color: #0000D8;
+}
+
+.client-color {
+    color: #009600;
+}
+
+.status-color {
+    color: #DD7300;
+}

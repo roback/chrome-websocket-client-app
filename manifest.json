@@ -1,0 +1,15 @@
+{
+	"name": "WebSocket client",
+	"description": "This app lets you create multiple WebSocket clients and connect them to a server in order to test the server out.",
+	"version": "0.1",
+	"app": {
+	       "background": {
+	       		     "scripts": ["background.js"]
+	       }
+	},
+	"icons": {
+		"16": "images/icon-16.png",
+		"48": "images/icon-48.png",
+		"128": "images/icon-128.png"
+	}
+}
